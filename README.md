@@ -1,3 +1,5 @@
+![Alt text](/Host-a-dynamic-website-on-AWS.jpeg)
+
 # Dynamic Website on AWS with Flyway and RDS Migration
 
 This project demonstrates the deployment of a dynamic website on AWS, utilizing a robust and scalable architecture. The solution leverages various AWS services, including EC2, RDS, VPC, Application Load Balancer, Auto Scaling, and more. Additionally, Flyway is used to manage SQL data migrations to Amazon RDS. The project includes deployment scripts and a reference architecture diagram, all available in this GitHub repository.
@@ -105,7 +107,7 @@ The architecture diagram is available in the repository.
 - Migration scripts are located in the `/migrations` directory.
 - Run the migrations using:
   ```bash
-  flyway -configFiles=flyway.conf migrate
+  $ wget -qO- https://download.red-gate.com/maven/release/com/redgate/flyway/flyway-commandline/11.3.2/flyway-commandline-11.3.2-linux-x64.tar.gz | tar -xvz && sudo ln -s `pwd`/flyway-11.3.2/flyway /usr/local/bin
   ```
 
 ---
