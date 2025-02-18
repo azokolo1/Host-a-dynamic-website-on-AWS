@@ -1,7 +1,3 @@
-Here's a detailed README file for your AWS-hosted dynamic website project:  
-
----
-
 # Dynamic Website on AWS with Flyway and RDS Migration
 
 This project demonstrates the deployment of a dynamic website on AWS, utilizing a robust and scalable architecture. The solution leverages various AWS services, including EC2, RDS, VPC, Application Load Balancer, Auto Scaling, and more. Additionally, Flyway is used to manage SQL data migrations to Amazon RDS. The project includes deployment scripts and a reference architecture diagram, all available in this GitHub repository.
